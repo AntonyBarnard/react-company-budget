@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-company-budget/static/css/main.5f9cb545.css",
-    "main.js": "/react-company-budget/static/js/main.af64eb66.js",
+    "main.js": "/react-company-budget/static/js/main.d9ae92f4.js",
     "static/js/787.c4271f98.chunk.js": "/react-company-budget/static/js/787.c4271f98.chunk.js",
     "static/media/bootstrap-icons.woff?": "/react-company-budget/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/react-company-budget/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/react-company-budget/index.html",
     "main.5f9cb545.css.map": "/react-company-budget/static/css/main.5f9cb545.css.map",
-    "main.af64eb66.js.map": "/react-company-budget/static/js/main.af64eb66.js.map",
+    "main.d9ae92f4.js.map": "/react-company-budget/static/js/main.d9ae92f4.js.map",
     "787.c4271f98.chunk.js.map": "/react-company-budget/static/js/787.c4271f98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9cb545.css",
-    "static/js/main.af64eb66.js"
+    "static/js/main.d9ae92f4.js"
   ]
 }

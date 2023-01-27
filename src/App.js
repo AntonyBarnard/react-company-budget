@@ -579,7 +579,7 @@ function App() {
 
         </div>
 
-        <div className='mt-5' id='Change-Allocation-Div'>
+        <div className='my-5' id='Change-Allocation-Div'>
           <h2>Change Allocation</h2>
           <form className='d-lg-flex align-items-center mt-4' onSubmit={null}>
             <div className='d-flex me-2 mt-2'>
@@ -610,7 +610,7 @@ function App() {
                 onChange={updateNewInputValue}
                 />
             </div>
-            <div className='d-flex mt-2 mb-5'>
+            <div className='d-flex mt-2'>
               <button className='btn btn-primary' type='button' onClick={changeAllocation}>Save</button>
             </div>
           </form>

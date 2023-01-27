@@ -23,22 +23,25 @@ function App() {
   })
 
   function updateBudgetAmount(){
-    if(document.getElementById("inputBudgetAmount").value > 20000) {
+    if(parseFloat(document.getElementById("inputBudgetAmount").value) > 20000) {
       document.getElementById("inputBudgetAmount").value = 20000;
       setBudgetAmount(20000);
+    } else if (parseFloat(document.getElementById("inputBudgetAmount").value) <= spentTotal) {
+      document.getElementById("inputBudgetAmount").value = spentTotal;
+      setBudgetAmount(spentTotal);
     } else {
       setBudgetAmount(document.getElementById("inputBudgetAmount").value);
     }
   }
 
   function updateNewInputValue () {
-    if(document.getElementById("inputNewValue").value >= budgetAmount) {
+    if(parseFloat(document.getElementById("inputNewValue").value) >= parseFloat(document.getElementById("inputBudgetAmount").value)) {
       document.getElementById('updateStatus').style.color = '#E25C69';
       setUpdateStatus('Max Budget Reached');
       setTimeout(() => {
         setUpdateStatus('');
       }, 3000);
-      document.getElementById("inputNewValue").value = budgetAmount;
+      document.getElementById("inputNewValue").value = document.getElementById("inputBudgetAmount").value;
     }
   }
 

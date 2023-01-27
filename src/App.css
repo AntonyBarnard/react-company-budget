@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input, .btn {
+  outline: none !important;
+  border: none !important;
+}
+
+#updateStatus {
+  transition: color 0s;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+th, td {
+  border-bottom: 1px solid lightgray !important;
+  height: 50px;
+}
+
+#AllocationIcons {
+  cursor: pointer;
+}
+
+select {
+  outline: none !important;
+}
+
+#inputNewValue {
+  border: 1px solid lightgray !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #top4Divs {
+    display: flex !important;
+    flex-direction: column !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #top4Divs {
+    margin-top: 20px !important;
   }
-  to {
-    transform: rotate(360deg);
+  #top4Divs > div {
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+  th, td {
+    font-size: 12px !important;
+  }
+  #AllocationIcons {
+    margin: 0 !important;
   }
 }

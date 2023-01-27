@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-company-budget/static/css/main.5f9cb545.css",
+    "main.js": "/react-company-budget/static/js/main.9d1dc2df.js",
+    "static/js/787.c4271f98.chunk.js": "/react-company-budget/static/js/787.c4271f98.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/react-company-budget/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/react-company-budget/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/react-company-budget/index.html",
+    "main.5f9cb545.css.map": "/react-company-budget/static/css/main.5f9cb545.css.map",
+    "main.9d1dc2df.js.map": "/react-company-budget/static/js/main.9d1dc2df.js.map",
+    "787.c4271f98.chunk.js.map": "/react-company-budget/static/js/787.c4271f98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f9cb545.css",
+    "static/js/main.9d1dc2df.js"
+  ]
+}

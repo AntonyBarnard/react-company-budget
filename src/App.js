@@ -32,10 +32,13 @@ function App() {
   }
 
   function updateNewInputValue () {
-    if(document.getElementById("inputNewValue").value > document.getElementById("inputBudgetAmount").value) {
-      document.getElementById("inputNewValue").value = document.getElementById("inputBudgetAmount").value;
-    } else {
-      setBudgetAmount(document.getElementById("inputNewValue").value);
+    if(document.getElementById("inputNewValue").value >= budgetAmount) {
+      document.getElementById('updateStatus').style.color = '#E25C69';
+      setUpdateStatus('Max Budget Reached');
+      setTimeout(() => {
+        setUpdateStatus('');
+      }, 3000);
+      document.getElementById("inputNewValue").value = budgetAmount;
     }
   }
 
